@@ -11,8 +11,7 @@ export type ApplicationsData = typeof applications
 export type GpsData          = typeof gps
 export type ConversionData   = typeof conversion
 
-const BASE = (import.meta.env.VITE_API_URL as string | undefined)
-  ?? 'https://roomora-api.onrender.com/api/v1'
+const BASE = 'https://roomora-api.onrender.com/api/v1'
 
 async function get<T>(path: string): Promise<T> {
   const res = await fetch(`${BASE}${path}`)
