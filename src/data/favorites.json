@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "studentsWhoFavorited": 612,
+    "studentsWhoApplied": 287,
+    "conversionRate": 46.9,
+    "totalFavorites": 2143,
+    "totalApplications": 412
+  },
+  "monthly": [
+    { "month": "Jun", "favorited": 78,  "applied": 31 },
+    { "month": "Jul", "favorited": 94,  "applied": 42 },
+    { "month": "Aug", "favorited": 121, "applied": 58 },
+    { "month": "Sep", "favorited": 105, "applied": 49 },
+    { "month": "Oct", "favorited": 118, "applied": 53 },
+    { "month": "Nov", "favorited": 96,  "applied": 54 }
+  ],
+  "byTimeToApply": [
+    { "bucket": "Same day",    "students": 88 },
+    { "bucket": "1-3 days",    "students": 112 },
+    { "bucket": "4-7 days",    "students": 54 },
+    { "bucket": "8-14 days",   "students": 23 },
+    { "bucket": "15+ days",    "students": 10 }
+  ]
+}

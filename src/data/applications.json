@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "totalApplications": 412,
+    "approved": 178,
+    "pending": 96,
+    "rejected": 138,
+    "approvalRate": 43.2
+  },
+  "withVsWithoutVisitAt": [
+    {
+      "category": "With preferred_visit_at",
+      "applications": 234,
+      "approved": 132,
+      "approvalRate": 56.4
+    },
+    {
+      "category": "Without preferred_visit_at",
+      "applications": 178,
+      "approved": 46,
+      "approvalRate": 25.8
+    }
+  ],
+  "byListing": [
+    { "listingId": "a1f3c2d8-4b5e-4f6a-9c1d-1e2f3a4b5c6d", "title": "Apto 2H cerca Uniandes",       "applications": 38, "approved": 22, "approvalRate": 57.9 },
+    { "listingId": "b2e4d3c9-5c6f-5a7b-ad2e-2f3a4b5c6d7e", "title": "Habitación privada Chapinero",  "applications": 31, "approved": 19, "approvalRate": 61.3 },
+    { "listingId": "c3f5e4da-6d7a-6b8c-be3f-3a4b5c6d7e8f", "title": "Studio La Macarena",            "applications": 27, "approved": 14, "approvalRate": 51.9 },
+    { "listingId": "d4a6f5eb-7e8b-7c9d-cf4a-4b5c6d7e8f9a", "title": "Casa compartida Teusaquillo",   "applications": 24, "approved": 11, "approvalRate": 45.8 },
+    { "listingId": "e5b7a6fc-8f9c-8dae-d05b-5c6d7e8f9a0b", "title": "Apto 1H Quinta Camacho",        "applications": 22, "approved": 8,  "approvalRate": 36.4 },
+    { "listingId": "f6c8b7ad-9a0d-9ebf-e16c-6d7e8f9a0b1c", "title": "Habitación Suba",               "applications": 19, "approved": 5,  "approvalRate": 26.3 },
+    { "listingId": "07d9c8be-ab1e-afca-f27d-7e8f9a0b1c2d", "title": "Loft Usaquén",                  "applications": 17, "approved": 9,  "approvalRate": 52.9 },
+    { "listingId": "18ead9cf-bc2f-badb-038e-8f9a0b1c2d3e", "title": "Apto Salitre",                  "applications": 15, "approved": 4,  "approvalRate": 26.7 }
+  ]
+}

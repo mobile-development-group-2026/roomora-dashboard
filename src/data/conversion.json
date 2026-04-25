@@ -1,0 +1,41 @@
+{
+  "priceRanges": [
+    "< $800k",
+    "$800k - $1.2M",
+    "$1.2M - $1.8M",
+    "$1.8M - $2.5M",
+    "> $2.5M"
+  ],
+  "propertyTypes": ["habitacion", "apartaestudio", "apartamento_1h", "apartamento_2h", "casa"],
+  "matrix": [
+    { "propertyType": "habitacion",      "priceRange": "< $800k",        "favorites": 142, "applications": 89, "conversionRate": 62.7 },
+    { "propertyType": "habitacion",      "priceRange": "$800k - $1.2M",  "favorites": 78,  "applications": 41, "conversionRate": 52.6 },
+    { "propertyType": "habitacion",      "priceRange": "$1.2M - $1.8M",  "favorites": 12,  "applications": 4,  "conversionRate": 33.3 },
+    { "propertyType": "habitacion",      "priceRange": "$1.8M - $2.5M",  "favorites": 0,   "applications": 0,  "conversionRate": 0 },
+    { "propertyType": "habitacion",      "priceRange": "> $2.5M",        "favorites": 0,   "applications": 0,  "conversionRate": 0 },
+
+    { "propertyType": "apartaestudio",   "priceRange": "< $800k",        "favorites": 34,  "applications": 18, "conversionRate": 52.9 },
+    { "propertyType": "apartaestudio",   "priceRange": "$800k - $1.2M",  "favorites": 96,  "applications": 58, "conversionRate": 60.4 },
+    { "propertyType": "apartaestudio",   "priceRange": "$1.2M - $1.8M",  "favorites": 71,  "applications": 32, "conversionRate": 45.1 },
+    { "propertyType": "apartaestudio",   "priceRange": "$1.8M - $2.5M",  "favorites": 18,  "applications": 6,  "conversionRate": 33.3 },
+    { "propertyType": "apartaestudio",   "priceRange": "> $2.5M",        "favorites": 4,   "applications": 1,  "conversionRate": 25.0 },
+
+    { "propertyType": "apartamento_1h",  "priceRange": "< $800k",        "favorites": 8,   "applications": 3,  "conversionRate": 37.5 },
+    { "propertyType": "apartamento_1h",  "priceRange": "$800k - $1.2M",  "favorites": 64,  "applications": 31, "conversionRate": 48.4 },
+    { "propertyType": "apartamento_1h",  "priceRange": "$1.2M - $1.8M",  "favorites": 112, "applications": 64, "conversionRate": 57.1 },
+    { "propertyType": "apartamento_1h",  "priceRange": "$1.8M - $2.5M",  "favorites": 41,  "applications": 18, "conversionRate": 43.9 },
+    { "propertyType": "apartamento_1h",  "priceRange": "> $2.5M",        "favorites": 9,   "applications": 2,  "conversionRate": 22.2 },
+
+    { "propertyType": "apartamento_2h",  "priceRange": "< $800k",        "favorites": 0,   "applications": 0,  "conversionRate": 0 },
+    { "propertyType": "apartamento_2h",  "priceRange": "$800k - $1.2M",  "favorites": 14,  "applications": 4,  "conversionRate": 28.6 },
+    { "propertyType": "apartamento_2h",  "priceRange": "$1.2M - $1.8M",  "favorites": 87,  "applications": 41, "conversionRate": 47.1 },
+    { "propertyType": "apartamento_2h",  "priceRange": "$1.8M - $2.5M",  "favorites": 102, "applications": 56, "conversionRate": 54.9 },
+    { "propertyType": "apartamento_2h",  "priceRange": "> $2.5M",        "favorites": 38,  "applications": 14, "conversionRate": 36.8 },
+
+    { "propertyType": "casa",            "priceRange": "< $800k",        "favorites": 0,   "applications": 0,  "conversionRate": 0 },
+    { "propertyType": "casa",            "priceRange": "$800k - $1.2M",  "favorites": 0,   "applications": 0,  "conversionRate": 0 },
+    { "propertyType": "casa",            "priceRange": "$1.2M - $1.8M",  "favorites": 11,  "applications": 3,  "conversionRate": 27.3 },
+    { "propertyType": "casa",            "priceRange": "$1.8M - $2.5M",  "favorites": 24,  "applications": 9,  "conversionRate": 37.5 },
+    { "propertyType": "casa",            "priceRange": "> $2.5M",        "favorites": 19,  "applications": 5,  "conversionRate": 26.3 }
+  ]
+}

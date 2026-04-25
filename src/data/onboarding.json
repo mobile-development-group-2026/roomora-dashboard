@@ -1,0 +1,28 @@
+{
+  "totals": {
+    "registered": 1247,
+    "completedOnboarding": 892
+  },
+  "byRole": [
+    {
+      "role": "student",
+      "registered": 1024,
+      "completedOnboarding": 781,
+      "completionRate": 76.3
+    },
+    {
+      "role": "landlord",
+      "registered": 223,
+      "completedOnboarding": 111,
+      "completionRate": 49.8
+    }
+  ],
+  "monthlyTrend": [
+    { "month": "Jun", "registered": 142, "onboarded": 98 },
+    { "month": "Jul", "registered": 187, "onboarded": 134 },
+    { "month": "Aug", "registered": 256, "onboarded": 198 },
+    { "month": "Sep", "registered": 231, "onboarded": 167 },
+    { "month": "Oct", "registered": 218, "onboarded": 162 },
+    { "month": "Nov", "registered": 213, "onboarded": 133 }
+  ]
+}
