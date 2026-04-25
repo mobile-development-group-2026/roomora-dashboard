@@ -4,7 +4,6 @@ import Overview from './pages/Overview'
 import Onboarding from './pages/Onboarding'
 import FavoritesFunnel from './pages/FavoritesFunnel'
 import Applications from './pages/Applications'
-import GpsUpdates from './pages/GpsUpdates'
 import Conversion from './pages/Conversion'
 
 export default function App() {
@@ -15,7 +14,6 @@ export default function App() {
         <Route path="onboarding" element={<Onboarding />} />
         <Route path="favorites" element={<FavoritesFunnel />} />
         <Route path="applications" element={<Applications />} />
-        <Route path="gps" element={<GpsUpdates />} />
         <Route path="conversion" element={<Conversion />} />
       </Route>
     </Routes>

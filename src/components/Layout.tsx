@@ -1,13 +1,12 @@
 import { NavLink, Outlet } from 'react-router-dom'
-import { LayoutDashboard, UserCheck, Heart, FileCheck2, MapPin, TrendingUp } from 'lucide-react'
+import { LayoutDashboard, UserCheck, Heart, FileCheck2, TrendingUp } from 'lucide-react'
 
 const nav = [
-  { to: '/',             label: 'Overview',     icon: LayoutDashboard },
-  { to: '/onboarding',   label: 'BQ1 · Onboarding',     icon: UserCheck },
+  { to: '/',             label: 'Overview',               icon: LayoutDashboard },
+  { to: '/onboarding',   label: 'BQ1 · Onboarding',       icon: UserCheck },
   { to: '/favorites',    label: 'BQ2 · Favorites Funnel', icon: Heart },
   { to: '/applications', label: 'BQ3 · Applications',     icon: FileCheck2 },
-  { to: '/gps',          label: 'BQ4 · GPS Coverage',     icon: MapPin },
-  { to: '/conversion',   label: 'BQ5 · Conversion',       icon: TrendingUp },
+  { to: '/conversion',   label: 'BQ4 · Conversion',       icon: TrendingUp },
 ]
 
 export default function Layout() {
